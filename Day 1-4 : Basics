@@ -217,7 +217,7 @@ print("intersection",intersection)
 difference = set1 - set2 #gives output as unique values in set1
 print("difference",difference)
 
-#symmetric
+#symmetric difference
 
 symmetric = set1 ^ set2 #gives output as (set1 | set2) - (set1 & set2) union - intersection
 print("symmentric",symmetric)
